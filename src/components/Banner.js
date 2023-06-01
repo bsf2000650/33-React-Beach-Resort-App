@@ -13,4 +13,6 @@ const Banner = ({children,title,subtitle}) => {
   )
 }
 
-export default Banner
+export default Banner;
+
+

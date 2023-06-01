@@ -21,20 +21,20 @@ const RoomsFilter = ({rooms}) => {
         type,
         capacity,
         price,
-        // minPrice,
-        // maxPrice,
-        // minSize,
-        // maxSize,
-        // breakfast,
-        // pets,
+        minPrice,
+        maxPrice,
+        minSize,
+        maxSize,
+        breakfast,
+        pets,
     } = context;
 
-    const minPrice = 0;
-    const maxPrice = 600;
-    const minSize = 0;
-    const maxSize = 1000;
-    const breakfast = true;
-    const pets = true;
+    // const minPrice = 0;
+    // const maxPrice = 600;
+    // const minSize = 0;
+    // const maxSize = 1000;
+    // const breakfast = true;
+    // const pets = true;
 
     // console.log(minPrice,maxPrice,minSize,maxSize);
     // console.log('Rooms ' + context);
